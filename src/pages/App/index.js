@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
+
+import "./App.css";
+import bgImg from "../../assets/bg.jpg";
 import ConverterInput from "../../components/ConverterInput";
 import ConverterOutput from "../../components/ConverterOutput";
 
@@ -7,9 +10,10 @@ const App = (props) => {
 	const [mode, setMode] = useState("B2D");
 	const [userInput, setUserInput] = useState("");
 	const [result, setResult] = useState(getResult());
+	const [invalidDigitError, setInvalidDigitError] = useState(false);
 
 	function toDecimal(binary) {
-		if (/[2-9]/.test(`${binary}`)) return "Invalid figures spotted only 0s and 1s are expected";
+		if (/[2-9]/.test(`${binary}`)) return "";
 
 		binary = parseInt(binary);
 	    let decimal = 0;
@@ -54,13 +58,17 @@ const App = (props) => {
 	}, [mode]);
 
 	return (
-		<main>
-			{/*input*/}
-			<input type="number" onChange={handleOnChange} value={userInput}/>
-			{/*switch*/}
-			<button onClick={() => setMode(mode === "B2D" ? "D2B" : "B2D")}>{mode}</button>
-			{/*output*/}
-			<output>{result}</output>
+		<main className="AppWrapper">
+			<img src={bgImg} alt="binary numbers" />
+			<header className="AppHeader">
+				<h1>Binary Decimal Converter</h1>
+				<p>Convert Base two numerals to Base ten numerals with ease</p>
+			</header>
+			<section className="App">
+				<ConverterInput onChange={handleOnChange} value={userInput} />
+				<button className="App__Switch" onClick={() => setMode(mode === "B2D" ? "D2B" : "B2D")}>{mode}</button>
+				<ConverterOutput result={result} />
+			</section>
 		</main>
 	)
 }
