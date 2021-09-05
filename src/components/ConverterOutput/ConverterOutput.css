@@ -1,0 +1,22 @@
+.ConverterOutput {
+	flex: 1;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: var(--converter-w);
+	height: var(--converter-h);
+	padding: 0 1.5rem;
+	border-top-right-radius: 5em;
+	border-bottom-right-radius: 5em;
+	box-sizing: border-box;
+
+	letter-spacing: 2px;
+	font-size: 18px;
+	background-color: white;
+}
+
+.ConverterOutput:placeholder {
+	letter-spacing: initial;
+}

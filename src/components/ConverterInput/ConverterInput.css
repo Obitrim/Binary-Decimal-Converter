@@ -1,0 +1,18 @@
+.ConverterInput {
+	padding: 0 0.5rem;
+	max-width: var(--converter-w);
+	height: var(--converter-h);
+	padding: 0 1.5rem;
+	border: none;
+	border-top-left-radius: 5em;
+	border-bottom-left-radius: 5em;
+	box-sizing: border-box;
+
+	letter-spacing: 2px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.ConverterInput:focus {
+	outline: none;
+}
