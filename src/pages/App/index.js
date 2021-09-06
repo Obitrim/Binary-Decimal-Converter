@@ -65,7 +65,7 @@ const App = (props) => {
 				<p>Convert Base two numerals to Base ten numerals with ease</p>
 			</header>
 			<section className="App">
-				<ConverterInput onChange={handleOnChange} value={userInput} />
+				<ConverterInput onChange={handleOnChange} placeholder={`Enter ${mode === "B2D" ? "binary" : "decimal"} number here...`} value={userInput} />
 				<button className="App__Switch" onClick={() => setMode(mode === "B2D" ? "D2B" : "B2D")}>{mode}</button>
 				<ConverterOutput result={result} />
 			</section>
