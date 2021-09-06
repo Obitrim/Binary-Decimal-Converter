@@ -1,5 +1,6 @@
 .ConverterOutput {
-	flex: 1;
+	position: relative;
+	z-index: 2;
 
 	display: flex;
 	align-items: center;
@@ -8,11 +9,24 @@
 	width: var(--converter-w);
 	height: var(--converter-h);
 	padding: 0 1.5rem;
-	border-top-right-radius: 5em;
-	border-bottom-right-radius: 5em;
+	border-radius: 5px;
+	margin-right: 3em;
+	margin-left: 0.5em;
 	box-sizing: border-box;
 
 	letter-spacing: 2px;
 	font-size: 18px;
 	background-color: white;
+}
+
+@media (min-width: 560px) {
+	.ConverterOutput {
+		flex: 1;
+
+		margin-right: 0;
+		margin-left: 0;
+		border-top-right-radius: 5em;
+		border-bottom-right-radius: 5em;
+	}
+
 }

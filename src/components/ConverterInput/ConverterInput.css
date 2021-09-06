@@ -1,11 +1,14 @@
-.ConverterInput {
-	padding: 0 0.5rem;
+.ConverterInput {	
+	position: relative;
+	z-index: 2;
+
 	max-width: var(--converter-w);
 	height: var(--converter-h);
 	padding: 0 1.5rem;
+	margin-right: 3em;
+	margin-left: 0.5em;
+	border-radius: 5px;
 	border: none;
-	border-top-left-radius: 5em;
-	border-bottom-left-radius: 5em;
 	box-sizing: border-box;
 
 	letter-spacing: 2px;
@@ -15,9 +18,21 @@
 
 .ConverterInput:focus {
 	outline: none;
+	box-shadow: -4px 0 20px rgba(0, 0, 0, 0.8);
 }
 
 .ConverterInput::placeholder {
 	font-size: 16px;
 	letter-spacing: initial;
+}
+
+@media (min-width: 560px) {
+	.ConverterInput {
+		flex: 1;
+
+		margin-right: 0;
+		margin-left: 0;
+		border-top-left-radius: 5em;
+		border-bottom-left-radius: 5em;
+	}	
 }

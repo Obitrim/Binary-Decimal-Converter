@@ -6,8 +6,12 @@
 	--dark-bg-color: #1a2121;
 }
 
+*, *::before, *::after {
+	margin: 0;
+ 	padding: 0;
+}
+
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -29,8 +33,6 @@ body::before {
 	right: 0;
 	bottom: 0;
 	z-index: 2;
-
-	/*background-color: red;*/
 
 	background: linear-gradient(to bottom, var(--dark-bg-color) 30%, transparent);
 }
