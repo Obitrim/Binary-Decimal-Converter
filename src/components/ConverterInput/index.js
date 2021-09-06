@@ -8,7 +8,7 @@ const ConverterInput = ({ value, onChange, ...props }) => {
     	type="number" 
     	value={value} 
     	onChange={onChange} 
-    	placeholder="Enter Number here..."
+    	{...props}
     />
   )
 }
