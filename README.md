@@ -11,8 +11,8 @@ Binary Decimal Converter is a simple application built with react to convert bin
 
 ### Desktop view
 
-![desktop view](https://github.com/Obitrim/Binary-Decimal-Converter/blob/main/docs/desktop.PNG);
+![desktop view](https://github.com/Obitrim/Binary-Decimal-Converter/blob/main/docs/desktop.PNG)
 
 ### Mobile view
 
-![desktop view](https://github.com/Obitrim/Binary-Decimal-Converter/blob/main/docs/mobile.PNG);
+![desktop view](https://github.com/Obitrim/Binary-Decimal-Converter/blob/main/docs/mobile.PNG)
