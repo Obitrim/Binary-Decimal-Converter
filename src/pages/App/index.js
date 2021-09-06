@@ -62,7 +62,7 @@ const App = (props) => {
 			<img src={bgImg} alt="binary numbers" />
 			<header className="AppHeader">
 				<h1>Binary Decimal Converter</h1>
-				<p>Convert Base two numerals to Base ten numerals with ease</p>
+				<p>Convert Base two numerals to Base ten numerals and vice versa with ease</p>
 			</header>
 			<section className="App">
 				<ConverterInput onChange={handleOnChange} placeholder={`Enter ${mode === "B2D" ? "binary" : "decimal"} number here...`} value={userInput} />
