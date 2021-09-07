@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Binary-Decimal-Converter/static/css/main.4ffd6331.chunk.css",
+    "main.js": "/Binary-Decimal-Converter/static/js/main.376db416.chunk.js",
+    "main.js.map": "/Binary-Decimal-Converter/static/js/main.376db416.chunk.js.map",
+    "runtime-main.js": "/Binary-Decimal-Converter/static/js/runtime-main.c28206bc.js",
+    "runtime-main.js.map": "/Binary-Decimal-Converter/static/js/runtime-main.c28206bc.js.map",
+    "static/js/2.fd1f8a0f.chunk.js": "/Binary-Decimal-Converter/static/js/2.fd1f8a0f.chunk.js",
+    "static/js/2.fd1f8a0f.chunk.js.map": "/Binary-Decimal-Converter/static/js/2.fd1f8a0f.chunk.js.map",
+    "static/js/3.a6811d8e.chunk.js": "/Binary-Decimal-Converter/static/js/3.a6811d8e.chunk.js",
+    "static/js/3.a6811d8e.chunk.js.map": "/Binary-Decimal-Converter/static/js/3.a6811d8e.chunk.js.map",
+    "index.html": "/Binary-Decimal-Converter/index.html",
+    "static/css/main.4ffd6331.chunk.css.map": "/Binary-Decimal-Converter/static/css/main.4ffd6331.chunk.css.map",
+    "static/js/2.fd1f8a0f.chunk.js.LICENSE.txt": "/Binary-Decimal-Converter/static/js/2.fd1f8a0f.chunk.js.LICENSE.txt",
+    "static/media/bg.d0a46162.jpg": "/Binary-Decimal-Converter/static/media/bg.d0a46162.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c28206bc.js",
+    "static/js/2.fd1f8a0f.chunk.js",
+    "static/css/main.4ffd6331.chunk.css",
+    "static/js/main.376db416.chunk.js"
+  ]
+}
